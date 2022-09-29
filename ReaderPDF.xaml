@@ -1,0 +1,16 @@
+﻿<Page x:Class="PDFWpfLIbrary.ReaderPDF"
+      xmlns:browser="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PDFWpfLIbrary"
+      mc:Ignorable="d" d:DesignWidth="1280"
+      Title="ReaderPDF" Height="658.667" >
+
+    <Grid Background="White">
+        <browser:ChromiumWebBrowser Background="White"   Address="https://google.com" x:Name="browser" Margin="0,-26,0,-24.333" />
+        <Button Content="Вернуться на главную" HorizontalAlignment="Left" VerticalAlignment="Top" Width="152" Height="45" Click="Button_Click"/>
+        <Button Content="Далее" HorizontalAlignment="Left" VerticalAlignment="Top" Width="152" Height="45" Click="Button_Click_Next" Margin="1112,0,0,0"/>
+    </Grid>
+</Page>

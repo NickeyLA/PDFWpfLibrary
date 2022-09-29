@@ -1,0 +1,21 @@
+﻿<Page x:Class="PDFWpfLIbrary.TestResult"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PDFWpfLIbrary"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TestResult">
+
+
+
+    <Grid Background="White" Margin="0,0,-438,-297">
+
+        <Label x:Name="Score" Content="Количество правильных ответов 3 из 4" HorizontalAlignment="Left" Margin="262,125,0,0" VerticalAlignment="Top" FontSize="36" Width="746" FontWeight="Bold"/>
+        <Label x:Name="Result" Content="Вы не прошли тест" HorizontalAlignment="Left" Margin="296,289,0,0" VerticalAlignment="Top" FontSize="72" Width="746" FontWeight="Bold" Foreground="Red"/>
+        <Button Content="Вернуться на главную" HorizontalAlignment="Left" Margin="96,473,0,0" Width="481" FontSize="36" Click="Button_Click" Height="116" VerticalAlignment="Top"/>
+        <Button Content="Далее" HorizontalAlignment="Left" Margin="666,473,0,0" Width="481" FontSize="36" Click="Button_Click_Next" Height="116" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>

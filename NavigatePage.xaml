@@ -1,0 +1,179 @@
+﻿<Page x:Class="PDFWpfLIbrary.NavigatePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PDFWpfLIbrary"
+      mc:Ignorable="d" d:DesignWidth="800"
+      Title="NavigatePage" >
+    <Grid>
+    <ScrollViewer  VerticalScrollBarVisibility="Visible">
+        <Grid Background="White" >
+
+
+            <Label Name="Glav1" Content="Глава 1. Информация и информационные процессы"  Foreground="DarkBlue" FontSize="16"  HorizontalAlignment="Left" Margin="30,30,0,0" VerticalAlignment="Top" Width="497" FontWeight="Bold" />
+
+
+            <Label x:Name="label1"   Foreground="DarkBlue" HorizontalAlignment="Left" Margin="71,80,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline">Информация, информационная грамотность и культура</TextBlock>
+            </Label>
+
+            <Label x:Name="label2" Foreground="DarkBlue" HorizontalAlignment="Left" Margin="70,153,0,0" VerticalAlignment="Top" Width="325" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline" Width="266">Подходы к измерению информации</TextBlock>
+            </Label>
+
+            <Label x:Name="label3"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="70,225,0,0" VerticalAlignment="Top" Width="453" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline" Width="427">Информационные связи в системах различной природы</TextBlock>
+            </Label>
+
+            <Label x:Name="label4"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="70,297,0,0" VerticalAlignment="Top" Width="468" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline" Width="385"> Обработка информации</TextBlock>
+            </Label>
+
+            <Label x:Name="label5"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="70,369,0,0" VerticalAlignment="Top" Width="394" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline" Width="297"> Передача и хранение информации</TextBlock>
+            </Label>
+
+            <Label  x:Name="test1"  Content="Тест 1"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="100,117,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test2" Content="Тест 2"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="100,189,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test3"  Content="Тест 3"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="100,261,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test4"   Content="Тест 4"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="100,333,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test5"  Content="Тест 5"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="100,405,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+
+            <Label x:Name="Glav2" Content="Глава 2. Компьютер и его программное обеспечение"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="30,477,0,0" VerticalAlignment="Top" Width="497" FontSize="16" FontWeight="Bold" />
+
+            <Label x:Name="label6" Foreground="DarkBlue" HorizontalAlignment="Left" Margin="70,514,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text=" История развития ВТ"/></TextBlock>
+
+            </Label>
+
+            <Label x:Name="label7"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="71,601,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text="Основополагающие принципы устройства ЭВМ"/></TextBlock>
+            </Label>
+
+            <Label x:Name="label8"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="71,683,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text="Программное обеспечение компьютера"/></TextBlock>
+            </Label>
+
+            <Label x:Name="label9"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="70,773,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text="Файловая система компьютера"/></TextBlock>
+            </Label>
+
+
+            <Label  x:Name="test6"  Content="Тест 6"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="100,550,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test7"  Content="Тест 7"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="100,637,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test8"  Content="Тест 8"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="100,719,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test9"  Content="Тест 9"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="100,809,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+
+
+
+
+
+
+            <Label x:Name="Glav3" Content="Глава 3. Представление информации в компьютере"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="30,884,0,0" VerticalAlignment="Top" Width="497" FontSize="16" FontWeight="Bold" />
+
+            <Label x:Name="label10"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="70,935,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text="Представление чисел в позиционных СС"/></TextBlock>
+
+            </Label>
+
+            <Label x:Name="label11"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="71,1007,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text="Перевод чисел из одной системы счисления в другую"/></TextBlock>
+
+            </Label>
+
+            <Label x:Name="label12"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="70,1088,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text="Арифметические операции в позиционных системах счисления"/></TextBlock>
+
+            </Label>
+
+            <Label x:Name="label13"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="70,1161,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text="Представление чисел в компьютере"/></TextBlock>
+
+            </Label>
+
+            <Label x:Name="label14" Foreground="DarkBlue" HorizontalAlignment="Left" Margin="70,1241,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text="Кодирование текстовой информации"/></TextBlock>
+
+            </Label>
+
+            <Label x:Name="label15"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="70,1323,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text="Кодирование графической информации"/></TextBlock>
+
+            </Label>
+
+            <Label x:Name="label16" Foreground="DarkBlue" HorizontalAlignment="Left" Margin="70,1419,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text="Кодирование звуковой информации"/></TextBlock>
+
+            </Label>
+            <Label  x:Name="test10"  Content="Тест 10"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="100,966,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test11"  Content="Тест 11"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="100,1039,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test12"  Content="Тест 12"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="99,1119,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test13"  Content="Тест 13"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="99,1192,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test14"  Content="Тест 14"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="99,1277,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test15"  Content="Тест 15"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="100,1360,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test16"  Content="Тест 16"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="99,1456,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+
+
+
+            <Label x:Name="Glav4" Content="Глава 4. Элементы теории множеств и алгебры логики"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="30,1524,0,0" VerticalAlignment="Top" Width="497" FontSize="16" FontWeight="Bold" />
+            <Label x:Name="label17"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="70,1560,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text="Некоторые сведения из теории множеств"/></TextBlock>
+
+            </Label>
+            <Label x:Name="label18" Foreground="DarkBlue" HorizontalAlignment="Left" Margin="71,1645,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text=" Алгебра логики"/></TextBlock>
+
+            </Label>
+            <Label x:Name="label19" Foreground="DarkBlue" HorizontalAlignment="Left" Margin="70,1723,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text="Таблицы истинности"/></TextBlock>
+
+            </Label>
+            <Label x:Name="label20"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="70,1803,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text="Преобразование логических выражений"/></TextBlock>
+
+            </Label>
+            <Label x:Name="label21"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="71,1891,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text="Элементы схемотехники"/></TextBlock>
+
+            </Label>
+            <Label x:Name="label22"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="71,1978,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text="Логические задачи и способы их решения"/></TextBlock>
+
+            </Label>
+            <Label  x:Name="test17"  Content="Тест 17"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="99,1596,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test18"  Content="Тест 18"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="99,1681,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test19"  Content="Тест 19"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="100,1755,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test20"  Content="Тест 20"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="99,1840,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test21"  Content="Тест 21"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="99,1923,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test22"  Content="Тест 22"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="99,2014,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+
+
+
+
+            <Label x:Name="Glav5" Content="Глава 5. Современные технологии создания и обработки информационных объектов"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="30,2068,0,0" VerticalAlignment="Top" Width="497" FontSize="16" FontWeight="Bold" />
+
+            <Label x:Name="label23"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="71,2104,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text="Текстовые документы"/></TextBlock>
+
+            </Label>
+
+            <Label x:Name="label24" Foreground="DarkBlue" HorizontalAlignment="Left" Margin="71,2202,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text="Объекты компьютерной графики"/></TextBlock>
+
+            </Label>
+            <Label x:Name="label25"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="70,2290,0,0" VerticalAlignment="Top" Width="497" FontStyle="Italic" FontSize="16" >
+                <TextBlock TextDecorations="Underline"><Run Text="Компьютерные презентации"/></TextBlock>
+
+
+            </Label>
+            <Label  x:Name="test23"  Content="Тест 23"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="100,2140,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test24"  Content="Тест 24"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="99,2238,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+            <Label  x:Name="test25"  Content="Тест 25"  Foreground="DarkBlue" HorizontalAlignment="Left" Margin="99,2326,0,0" VerticalAlignment="Top" Width="468" FontSize="16" />
+           
+
+        </Grid>
+    </ScrollViewer>
+    <Button Content="Сбросить" Click="Button_Click"  FontSize="20" HorizontalAlignment="Right"  VerticalAlignment="Top" Width="144" Height="61" Margin="0,50,50,0"/>
+    </Grid>
+</Page>

@@ -1,0 +1,25 @@
+﻿<Page x:Class="PDFWpfLIbrary.TestPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PDFWpfLIbrary"
+      mc:Ignorable="d"
+      Title="TestPage" Height="412.167" Width="788.762">
+
+    <Grid Background="White" Margin="0,0,-0.333,0">
+
+        <Label x:Name="Question" Content="Вопрос 1" HorizontalAlignment="Left" Margin="29,10,-986,0" VerticalAlignment="Top" Height="121" Width="1746" FontWeight="Bold" FontSize="14"/>
+
+        <Button x:Name="Next" Content="Далее" HorizontalAlignment="Left" Margin="493,318,0,0" VerticalAlignment="Top" Width="140" Click="Button_ClickNext" Height="40" FontSize="24"/>
+
+
+        <RadioButton x:Name="Radio1" Content="ответ 1" HorizontalAlignment="Left" Margin="59,131,0,0" VerticalAlignment="Top" Height="45" Width="720" FontSize="14" />
+        <RadioButton x:Name="Radio2" Content="ответ 2" HorizontalAlignment="Left" Margin="59,181,0,0" VerticalAlignment="Top" Height="46" Width="730" FontSize="14"/>
+        <RadioButton x:Name="Radio3" Content="ответ 3" HorizontalAlignment="Left" Margin="59,227,0,0" VerticalAlignment="Top" Height="45" Width="720" FontSize="14"/>
+        <RadioButton x:Name="Radio4" Content="ответ 4" HorizontalAlignment="Left" Margin="59,272,0,0" VerticalAlignment="Top" Height="46" Width="720" FontSize="14"/>
+        <Button x:Name="Stop" Content="Завершить" HorizontalAlignment="Left" Margin="59,318,0,0" VerticalAlignment="Top" Width="140" Click="Button_ClickStop" Height="40" FontSize="24"/>
+
+
+    </Grid>
+</Page>
